@@ -8,6 +8,18 @@
 .text-primary {
     color: rgb(13, 19, 33);
 }
+.description{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.learn-btn{
+    font-size: 20px;
+    font-weight: 600px;
+}
 
 #resume {
     font-weight: 600px;
@@ -35,19 +47,19 @@ nav li {
     list-style: none;
 }
 
-/* banner style */
-.banner-tittle {
-    font-size: 45px;
-    font-weight: 800px;
-}
-
-.banner-content {
+ /* banner style */
+.banner-content{
     align-items: center;
-    padding: 25px 250px 45px;
+    padding: 25px 230px 40px;
     text-align: center;
+    height: 600px;
+    width: 1400;
     background-image: url('../images/Hero-bg.png');
 }
-
+.banner-tittle{
+    font-size: 45px;
+    font-weight: 600px;
+}
 #contact-button {
     color: white;
     background-color: black;
@@ -56,3 +68,51 @@ nav li {
     padding: 20px 24px;
     border-radius: 8px;
 }
+.color-bg{
+    background-color: rgba(13, 19, 33, 0.02);
+    margin:30px auto 30px;
+    max-width: 1140px; 
+}
+.content{
+    padding: 80px 90px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.text-center{
+    align-items: center;
+    text-align: center;
+}
+.first, .second, .third{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+    padding: 10px;
+    background-color: white;
+    text-align: left;
+    width: 940px;
+    height: 330px;
+    border-radius: 16px;
+}
+.content-title{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.first-pic{
+    width: 270px;
+    padding: 3px 13px 19px 1px;
+    border-radius: 16px;
+}
+.second-pic{
+    width: 240px;
+    padding: 0 13px 30px 0;
+    border-radius: 16px;
+}
+.third-pic{
+    width: 220px;
+    padding: 0 15px 30px 0;
+    border-radius: 16px;
+}
+.first-content, .second-content, .third-content{
+    max-width: 460px;
+}
+
